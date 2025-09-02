@@ -1,0 +1,60 @@
+const TodoModel = require("../models/todoModel");
+
+// 1. Create Todo
+function createTodo(req, res) {
+    const { description } = req.body;
+
+    if (!description) {
+        return res.status(400).json({ todo: null, message: "Description is required." });
+    }
+
+    const newTodo = TodoModel.create(description);
+    res.json({ todo: newTodo, message: "Todo created successfully." });
+}
+
+// 2. Read Todo by ID
+function getTodo(req, res) {
+    const id = parseInt(req.params.id);
+    const todo = TodoModel.findById(id);
+
+    if (!todo) {
+        return res.status(404).json({ todo: null, message: "Todo not found." });
+    }
+
+    res.json({ todo, message: "Todo retrieved successfully." });
+}
+
+// 3. Read All Todos
+function getAllTodos(req, res) {
+    const todos = TodoModel.findAll();
+    res.json({ todo: todos, message: "All todos retrieved successfully." });
+}
+
+// 4. Update Todo
+function updateTodo(req, res) {
+    const id = parseInt(req.params.id);
+    const { description, completed } = req.body;
+
+    const updatedTodo = TodoModel.update(id, { description, completed });
+
+    if (!updatedTodo) {
+        return res.status(404).json({ todo: null, message: "Todo not found." });
+    }
+
+    res.json({ todo: updatedTodo, message: "Todo updated successfully." });
+}
+
+// 5. Delete Todo
+function deleteTodo(req, res) {
+    const id = parseInt(req.params.id);
+
+    const deletedTodo = TodoModel.remove(id);
+
+    if (!deletedTodo) {
+        return res.status(404).json({ todo: null, message: "Todo not found." });
+    }
+
+    res.json({ todo: deletedTodo, message: "Todo deleted successfully." });
+}
+
+module.exports = { createTodo, getTodo, getAllTodos, updateTodo, deleteTodo };
