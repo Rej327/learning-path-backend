@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "socket": "^1.0.107",
+    "socket.io-client": "^4.8.1"
+  },
+  "scripts": {
+    "start": "npx ts-node index.ts"
+  },
+  "devDependencies": {
+    "@types/socket.io-client": "^1.4.36",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
