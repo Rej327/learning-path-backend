@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1756835854770" clover="3.2.0">
+  <project timestamp="1756835854770" name="All files">
+    <metrics statements="46" coveredstatements="43" conditionals="8" coveredconditionals="6" methods="7" coveredmethods="6" elements="61" coveredelements="55" complexity="0" loc="46" ncloc="46" packages="4" files="4" classes="4"/>
+    <package name="1.pokemon-app">
+      <metrics statements="8" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\resuj\Desktop\apps\1.pokemon-app\index.ts">
+        <metrics statements="8" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="10" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="1.pokemon-app.controllers">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="pokemonController.ts" path="C:\Users\resuj\Desktop\apps\1.pokemon-app\controllers\pokemonController.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="1.pokemon-app.models">
+      <metrics statements="23" coveredstatements="22" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4"/>
+      <file name="pokemonModel.ts" path="C:\Users\resuj\Desktop\apps\1.pokemon-app\models\pokemonModel.ts">
+        <metrics statements="23" coveredstatements="22" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="11" count="224" type="stmt"/>
+        <line num="12" count="224" type="stmt"/>
+        <line num="13" count="222" type="stmt"/>
+        <line num="18" count="338" type="stmt"/>
+        <line num="19" count="222" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="43" count="4" type="stmt"/>
+        <line num="44" count="4" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="47" count="220" type="stmt"/>
+        <line num="48" count="220" type="cond" truecount="1" falsecount="1"/>
+        <line num="51" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="1.pokemon-app.routes">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="pokemonRoutes.ts" path="C:\Users\resuj\Desktop\apps\1.pokemon-app\routes\pokemonRoutes.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
